@@ -1,5 +1,5 @@
 # 🔍 Challenge #1 — The Disappeared Developer
-## Student Brief
+## Brief
 
 ---
 
