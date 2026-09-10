@@ -1,0 +1,66 @@
+*******************************************************************
+*                                                                 *
+* | |_  |_  _  |_| _  __ _  _  _ _  _ |_  _  __                 *
+* |   | | |(/_  | |(_|| |V||_)(-_)_\  |_)(-|_(-|                 *
+*                         |                                       *
+* TheHarvester 4.6.0                                              *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+*                                                                 *
+*******************************************************************
+
+[*] Target: clearpath-tech.io
+[*] Sources: crtsh, urlscan
+[*] Output file: ~/Documents/clearpath_harvest.json
+
+[*] Searching crtsh (Certificate Transparency Logs)...
+[*] Searching urlscan.io...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[*] Hosts found: 9
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+clearpath-tech.io
+www.clearpath-tech.io
+mail.clearpath-tech.io
+dev.clearpath-tech.io
+staging.clearpath-tech.io
+admin.clearpath-tech.io         ← login panel at /login — returns HTTP 200
+vpn.clearpath-tech.io
+api.clearpath-tech.io
+status.clearpath-tech.io
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[*] Emails found: 7
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+r.hassan@clearpath-tech.io
+s.almadi@clearpath-tech.io
+k.devore@clearpath-tech.io          ← matches target identity "K. Devore"
+j.bishop@clearpath-tech.io
+hr@clearpath-tech.io
+support@clearpath-tech.io
+info@clearpath-tech.io
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[*] Email sources:
+  k.devore@clearpath-tech.io  found in: conference-schedule-cyberconf2025.pdf
+                               (indexed by urlscan.io on 2025-10-14)
+                               Speaker bio page — "Senior Security Developer"
+  r.hassan@clearpath-tech.io  found in: clearpath-tech.io/about (page title:
+                               "Leadership Team — ClearPath Tech")
+  s.almadi@clearpath-tech.io  found in: clearpath-tech.io/press/2025-q3.pdf
+
+[*] crtsh certificate records for clearpath-tech.io:
+  Cert #1: issued 2023-02-10 — SAN: clearpath-tech.io, www.clearpath-tech.io
+  Cert #2: issued 2024-05-17 — SAN: *.clearpath-tech.io (wildcard)
+           Issued by: Let's Encrypt Authority X3
+  Cert #3: issued 2026-06-01 — SAN: admin.clearpath-tech.io (separate cert)
+           ▲ NOTE: admin subdomain has its own certificate — issued separately,
+             suggesting it is hosted on different infrastructure.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[*] Scan completed in 00:01:23

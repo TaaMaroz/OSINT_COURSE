@@ -1,0 +1,66 @@
+Carbon14 — Page Age Estimator
+Target: https://admin.clearpath-tech.io/
+Run date: 2026-09-07
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[*] Fetching page: https://admin.clearpath-tech.io/
+[*] HTTP 200 OK — page is live
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PAGE HTML METADATA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  HTTP Last-Modified header  : Tue, 14 Jul 2026 08:22:34 GMT
+  Meta generator tag         : ClearPath Internal v2.3 (Bootstrap 5)
+  HTML <title>               : ClearPath Admin — Internal Portal
+  Copyright footer           : © 2024 ClearPath Technologies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMBEDDED IMAGE METADATA (4 images found)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Image 1: /assets/img/logo-admin.png
+  EXIF DateTimeOriginal : 2023-11-03 14:15:00
+  EXIF Software         : Adobe Photoshop 24.0 (Windows)
+  EXIF Author           : r.hassan
+
+Image 2: /assets/img/dashboard-preview.jpg
+  EXIF DateTimeOriginal : 2023-10-28 09:40:22
+  EXIF Software         : Adobe Photoshop 24.0 (Windows)
+  EXIF Author           : r.hassan
+
+Image 3: /assets/img/icon-lock.svg
+  No EXIF data
+
+Image 4: /assets/img/bg-pattern.jpg
+  EXIF DateTimeOriginal : 2021-06-15 17:30:00
+  EXIF Software         : GIMP 2.10
+  EXIF Author           : (empty)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CARBON14 SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Page HTML claims modification : 2026-07-14
+  Oldest image EXIF date found  : 2021-06-15
+  Newest image EXIF date found  : 2023-11-03
+
+  ⚠ DISCREPANCY DETECTED: The page HTML reports a July 2026 modification date,
+  but all embedded images predate that by 2–5 years.
+
+  Possible explanations (analyst must weigh):
+  A) Admin portal was recently redesigned — old assets were reused (common, innocent)
+  B) Portal content was deliberately refreshed to obscure original creation date
+  C) Images were migrated from a legacy system and dates were not updated
+
+  Carbon14 is not forensically conclusive — treat as a supporting clue.
+  Corroborate with Web Archive snapshots of this URL.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Web Archive check: https://web.archive.org/web/*/admin.clearpath-tech.io
+
+  Earliest snapshot : 2024-03-22  (page shows "ClearPath v1.0 Admin")
+  Latest snapshot   : 2026-07-10  (page shows "ClearPath Internal v2.3")
+  Gap               : No snapshots between 2024-04 and 2026-06 (14-month gap)
+  ▲ The 14-month gap coincides with the period the developer claims
+    the internal fraud began. No external explanation found.

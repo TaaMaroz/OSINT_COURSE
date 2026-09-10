@@ -1,0 +1,55 @@
+Sublist3r v1.1
+Author: Ahmed Aboul-Ela | @aboul3la
+Target domain: clearpath-tech.io
+Total threads: 40
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[-] Enumerating subdomains for clearpath-tech.io
+[*] Checking Google...
+[*] Checking Bing...
+[*] Checking Yahoo...
+[*] Checking Baidu...
+[*] Checking DNSdumpster...
+[*] Checking SSL Certificates (crt.sh)...
+[*] Checking ThreatCrowd...
+[*] Checking VirusTotal...
+
+[+] Total results: 12 subdomains found
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+clearpath-tech.io
+www.clearpath-tech.io
+mail.clearpath-tech.io
+dev.clearpath-tech.io
+staging.clearpath-tech.io
+admin.clearpath-tech.io
+vpn.clearpath-tech.io
+api.clearpath-tech.io
+status.clearpath-tech.io
+docs.clearpath-tech.io
+git.clearpath-tech.io
+old.clearpath-tech.io
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NOTE FOR ANALYST: Feed this list into EyeWitness or manually
+visit each subdomain to verify which ones are live and return
+meaningful content. The raw list is a starting point only.
+
+Recommended next step:
+  for sub in $(cat sublist3r_clearpath.txt); do
+    curl -s -o /dev/null -w "%{http_code} $sub\n" "https://$sub/"
+  done
+
+Simulated HTTP response codes (what you would see):
+  200  www.clearpath-tech.io         ← main site
+  200  mail.clearpath-tech.io        ← webmail login
+  200  admin.clearpath-tech.io       ← ADMIN PANEL — publicly reachable
+  200  status.clearpath-tech.io      ← uptime dashboard (no auth)
+  301  clearpath-tech.io             ← redirects to www
+  403  api.clearpath-tech.io         ← API gateway (access denied)
+  403  vpn.clearpath-tech.io         ← VPN portal (access denied)
+  404  git.clearpath-tech.io         ← domain exists but no content
+  503  staging.clearpath-tech.io     ← offline
+  503  dev.clearpath-tech.io         ← offline
+  503  docs.clearpath-tech.io        ← offline
+  404  old.clearpath-tech.io         ← decommissioned

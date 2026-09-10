@@ -1,0 +1,90 @@
+Blackbird v1.4.2 — Username Search Report
+Target Username: devk0re
+Scan Started: 2026-09-07 14:22:11 UTC
+Sites Checked: 512
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[+] CONFIRMED ACCOUNTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[FOUND] GitHub               → https://github.com/devk0re
+        Profile bio: "Security researcher. Python. Breaking things responsibly."
+        Joined: 2019-03-14
+        Public repos: 23
+        Last activity: 2026-08-18  ← NOTE: went silent ~3 weeks ago
+
+[FOUND] GitLab               → https://gitlab.com/devk0re
+        Joined: 2019-05-02
+        Projects: 7 (5 private, 2 public)
+        Last commit: 2026-08-17
+
+[FOUND] HackerOne            → https://hackerone.com/devk0re
+        Reputation: 847
+        Signal: 83%
+        Last active: 2026-06-30
+
+[FOUND] Reddit               → https://reddit.com/user/devk0re
+        Account created: 2018-11-22
+        Comment karma: 4,219
+        Post karma: 388
+        Subreddits: r/netsec, r/osint, r/programming, r/privacy
+        Last post: 2026-08-15 — "Anyone else notice weird auth logs on
+                                clearpath products? asking for a friend"
+        ▲ FLAG NOTE: This post was deleted 3 days after publishing.
+          Blackbird captured it via cached source before deletion.
+
+[FOUND] Stack Overflow       → https://stackoverflow.com/users/devk0re
+        Member since: 2019-01-08
+        Reputation: 2,341
+        Top tags: python, linux, network-security, bash
+
+[FOUND] Keybase              → https://keybase.io/devk0re
+        PGP key fingerprint: 4A3B 9C2E 7F18 D3A1 6B55 2C40 9E71 F083 D24A 1B3C
+        Devices: laptop (Linux), phone (Android)
+        Proofs: GitHub ✓, Reddit ✓
+
+[FOUND] dev.to               → https://dev.to/devk0re
+        Posts: 6
+        Latest: "Hardening your Linux OSINT VM — lessons learned" (2026-04-12)
+
+[FOUND] Hacker News          → https://news.ycombinator.com/user?id=devk0re
+        Created: 2020-07-14
+        Karma: 1,102
+
+[FOUND] Replit               → https://replit.com/@devk0re
+        Repls: 14 (public: 3)
+        Public repls: log-analyzer, subdomain-checker, hash-identifier
+
+[FOUND] Medium               → https://medium.com/@devk0re
+        Followers: 312
+        Articles: 4 (last: 2026-02-28)
+
+[FOUND] DockerHub            → https://hub.docker.com/u/devk0re
+        Public images: 2
+        Image 1: devk0re/osint-toolkit (pulls: 841)
+        Image 2: devk0re/log-parser (pulls: 129)
+
+[FOUND] TryHackMe            → https://tryhackme.com/p/devk0re
+        Rank: #4,872
+        Completed rooms: 47
+
+[FOUND] npm                  → https://www.npmjs.com/~devk0re
+        Packages: 1 (clearpath-audit-lib — published 2025-11-03)
+        ▲ FLAG NOTE: Package name ties this username to ClearPath Tech
+
+[FOUND] Gravatar             → https://www.gravatar.com/devk0re
+        Email hash: d8578edf8458ce06fbc5bb76a58c5ca4
+        ▲ This is an MD5 hash of the registered email address.
+          Gravatar uses MD5(lowercase(email)) as the profile image lookup.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[NOT FOUND] Twitter/X, LinkedIn, HackTheBox, YouTube, PyPI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Summary
+  Sites checked  : 512
+  Confirmed      : 14
+  Not found      : 5 (of tested)
+  Errors/Blocked : 493 (rate limited or no public check available)
+
+Scan completed in 6m 43s

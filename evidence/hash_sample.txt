@@ -1,0 +1,42 @@
+# Hash Sample — Recovered from DevForums_2021 Breach
+# Source: h8mail_results.txt — Breach #1
+
+TARGET_EMAIL : devk0re@proton.me
+HASH_STRING  : 7c6a180b36896a0a8c02787eeafb0e4c
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TASK: Identify what type of hash this is and attempt to crack it.
+
+Step 1 — Identify the hash algorithm:
+  nth --text "7c6a180b36896a0a8c02787eeafb0e4c"
+
+Step 2 — Attempt to crack via online rainbow tables:
+  sth --text "7c6a180b36896a0a8c02787eeafb0e4c"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+What you will see when you run nth:
+
+  Most Likely
+  [+] MD5, HC: 0, JtR: raw-md5, Summary: Used for general purpose, ...
+
+  Least Likely
+  [+] MD4, HC: 900, JtR: raw-md4
+  [+] NTLM, HC: 1000, JtR: NT
+
+What you will see when you run sth:
+
+  [+] Hash type : MD5
+  [+] Cracking  : 7c6a180b36896a0a8c02787eeafb0e4c
+  [+] Result    : password1  ← plaintext recovered via rainbow table
+  [+] Source    : crackstation.net
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ANALYSIS QUESTION:
+  MD5 is described in Week 2, Section 1.1 as a "known-weak algorithm
+  that is widely precomputed and trivially crackable."
+
+  What does using MD5 for password storage tell you about DevForums'
+  security practices — and by extension, about the password hygiene
+  of anyone who reused this password elsewhere?

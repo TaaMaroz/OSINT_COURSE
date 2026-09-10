@@ -1,0 +1,34 @@
+Holehe v1.1.10 — Email-to-Service Mapping
+Target: devk0re@proton.me
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[+] GitHub          — Account EXISTS
+[+] GitLab          — Account EXISTS
+[+] Docker          — Account EXISTS
+[+] HackerOne       — Account EXISTS
+[+] Keybase         — Account EXISTS
+[+] Trello          — Account EXISTS
+[+] Slack           — Account EXISTS
+[+] Notion          — Account EXISTS
+[-] Twitter         — NOT registered
+[-] Facebook        — NOT registered
+[-] Instagram       — NOT registered
+[-] LinkedIn        — NOT registered
+[-] Snapchat        — NOT registered
+[x] Google          — Blocked (automated check not possible)
+[x] Apple           — Blocked (automated check not possible)
+[x] ProtonMail      — Blocked (it IS ProtonMail — circular check)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Legend: [+] confirmed   [-] not registered   [x] blocked/inconclusive
+
+Cross-reference note:
+  GitHub, GitLab, Docker, HackerOne, Keybase confirmed by BOTH
+  Holehe AND Blackbird/Sherlock — HIGH CONFIDENCE accounts.
+
+  Trello and Slack are new findings not in username tools —
+  these require manual verification (username ≠ email).
+
+  The absence from Facebook, Instagram, LinkedIn, and Twitter
+  is consistent with a privacy-conscious security researcher.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

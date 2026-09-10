@@ -1,0 +1,50 @@
+H8Mail v3.1 — Email Breach Intelligence
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Query 1: devk0re@proton.me
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[+] LeakLookup (public tier):
+    Target : devk0re@proton.me
+    Result : 3 breach records found
+
+    Breach #1 — Source: "DevForums_2021_dump"
+      Date indexed : 2021-09-14
+      Fields leaked: email, username, password_hash
+      Password hash: 7c6a180b36896a0a8c02787eeafb0e4c
+      Hash type    : ??? (student must identify — see hash_sample.txt)
+
+    Breach #2 — Source: "TechConf_Attendees_2023"
+      Date indexed : 2023-11-02
+      Fields leaked: email, full_name, employer, job_title
+      Plaintext    : full_name="Khalid Devore", employer="ClearPath Technologies",
+                     job_title="Senior Security Developer"
+      ▲ This is a non-password breach — conference registration list that was
+        leaked. No sensitive credentials, but confirms real-world identity.
+
+    Breach #3 — Source: "PrivacyForum_2024_combolist"
+      Date indexed : 2024-08-30
+      Fields leaked: email, password_hash
+      Password hash: (redacted — requires paid tier)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Query 2: k.devore@clearpath-tech.io
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[+] LeakLookup (public tier):
+    Target : k.devore@clearpath-tech.io
+    Result : 1 breach record found
+
+    Breach #1 — Source: "LinkedInScrape_2022"
+      Date indexed : 2022-06-01
+      Fields leaked: email, first_name, last_name, company, location
+      Plaintext    : first_name="Khalid", last_name="Devore",
+                     company="ClearPath Tech", location="Amman, Jordan"
+      ▲ LinkedIn scrape confirms full name, company affiliation, and location.
+        This is a corroboration record — not a credential leak.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ANALYST NOTE:
+  Free tier shows breach source names and field types only.
+  Actual leaked content (passwords, etc.) requires paid API keys.
+  The hash from Breach #1 is provided in hash_sample.txt for analysis.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

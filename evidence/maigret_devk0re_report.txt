@@ -1,0 +1,59 @@
+Maigret v0.4.4
+Target: devk0re
+Sites checked: 2,847
+Report generated: 2026-09-07 14:58:03 UTC
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ ██████  CONFIRMED (14)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Developer / Technical
+  GitHub        https://github.com/devk0re              ✓
+  GitLab        https://gitlab.com/devk0re              ✓
+  npm           https://npmjs.com/~devk0re              ✓
+  Replit        https://replit.com/@devk0re             ✓
+  DockerHub     https://hub.docker.com/u/devk0re        ✓
+  Stack Overflow https://stackoverflow.com/users/devk0re ✓
+
+Security / CTF
+  HackerOne     https://hackerone.com/devk0re           ✓
+  TryHackMe     https://tryhackme.com/p/devk0re         ✓
+
+Social / Content
+  Reddit        https://reddit.com/user/devk0re         ✓
+  Hacker News   https://news.ycombinator.com/user?id=devk0re ✓
+  Medium        https://medium.com/@devk0re             ✓
+  dev.to        https://dev.to/devk0re                  ✓
+  Keybase       https://keybase.io/devk0re              ✓
+  Gravatar      https://gravatar.com/devk0re            ✓
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ EXTRACTED PROFILE CLUES (from public data)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+From GitHub profile:
+  Name field     : "K. Devore"
+  Location field : (empty — was previously "Amman, JO" per cached copy)
+  Email field    : devk0re@proton.me   ← VISIBLE IN OLDER COMMIT METADATA
+  Bio            : "Security researcher. Python. Breaking things responsibly."
+  Company field  : @clearpath-tech   ← directly links username to the company
+
+From GitHub commit log (public repo: devk0re/log-analyzer):
+  Commit SHA     : 7f3a91c
+  Date           : 2026-01-14 09:33:22 +0300
+  Author         : K. Devore <devk0re@proton.me>
+  Message        : "fix: sanitize path input before audit log write"
+
+  Commit SHA     : 3b92fe0
+  Date           : 2025-08-22 11:07:51 +0300
+  Author         : K. Devore <k.devore@clearpath-tech.io>
+  Message        : "add internal audit endpoint — DO NOT PUSH TO PUBLIC"
+  ▲ FLAG NOTE: This commit included a work email in the author field.
+    The commit message suggests it was pushed accidentally.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Earliest account: Reddit (2018-11-22)
+Most recent activity: GitHub (2026-08-18) — then silence
+Consistent timezone across commits: UTC+3 (Amman / Baghdad / Riyadh)
