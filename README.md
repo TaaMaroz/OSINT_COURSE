@@ -1,87 +1,75 @@
-# Investigation Report Template — Challenge #1
-## The Disappeared Developer
-
-**Analyst name:** ___________________________
-**Date:** ___________________________
-**Case ID:** CTF-C1-devk0re
+# 🔍 Challenge #1 — The Disappeared Developer
+## Student Brief
 
 ---
 
-## 1. Investigation Summary
+### Scenario
 
-> (2–3 sentences: who, what, objective)
+A cybersecurity non-profit called **ClearPath Tech** (`clearpath-tech.io`) has
+reported a disturbing situation to your team. One of their senior developers — who
+went by the online handle **`devk0re`** — suddenly vanished three weeks ago.
 
----
+Before disappearing, they emailed the board saying they were "being watched" and
+had uncovered evidence of internal fraud. Their personal laptop was wiped, and the
+company's incident log showed a login from an unfamiliar IP the night before they
+went silent.
 
-## 2. Pre-Analysis — Competing Hypotheses
-
-List your 4 hypotheses **before** reviewing evidence (write these first):
-
-- H1:
-- H2:
-- H3:
-- H4:
+Your team has been hired to conduct a **passive OSINT investigation**.
 
 ---
 
-## 3. Timeline of Findings
+### Intelligence Requirements
 
-| Time (approx.) | Finding | Source File | Confirms / Refutes |
-|---------------|---------|-------------|-------------------|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+1. What platforms is `devk0re` registered on?
+2. What email address(es) are linked to this identity?
+3. Does the domain `clearpath-tech.io` expose subdomains or sensitive files?
+4. Does breach data connect any recovered email to a known leak?
+5. What is the most probable explanation for the disappearance?
 
 ---
 
-## 4. Flags Captured
+### Flags to Capture 🚩
 
-| Flag | Answer | Source |
-|------|--------|--------|
-| FLAG-1 | ___ platforms confirmed (list tool names used) | |
-| FLAG-2 | Email: _______________ | |
-| FLAG-3 | Subdomain: _______________ | |
-| FLAG-4 | Hash type: _______________ | |
-| FLAG-5 | ACH conclusion: _______________ | |
-
----
-
-## 5. ACH Matrix Summary
-
-> (Attach completed ach_matrix_template.md OR paste summary here)
-
-Hypothesis with fewest inconsistencies: _______________
-Inconsistency count: H1=___ H2=___ H3=___ H4=___
+| Flag | Question |
+|------|----------|
+| **FLAG-1** | How many platforms is `devk0re` confirmed active on? (must use ≥2 tools) |
+| **FLAG-2** | One email address linked to this identity |
+| **FLAG-3** | A subdomain of `clearpath-tech.io` that exposes a login/admin portal |
+| **FLAG-4** | The hash algorithm type of the password found in breach data |
+| **FLAG-5** | Your ACH conclusion — which hypothesis has the fewest inconsistencies? |
 
 ---
 
-## 6. Conclusion
+### Evidence Files Provided
 
-**Most probable explanation:**
+The following files simulate real tool outputs you would get by running the tools
+yourself. Analyze each file carefully — the flags are embedded in the data.
 
-**Confidence level:** ___%
-
-**Reasoning:**
+```
+evidence/
+├── sherlock_devk0re.csv         ← Sherlock username scan output
+├── blackbird_devk0re.txt        ← Blackbird username scan output
+├── maigret_devk0re_report.txt   ← Maigret scan summary
+├── theharvester_clearpath.txt   ← TheHarvester domain output
+├── sublist3r_clearpath.txt      ← Sublist3r subdomain list
+├── carbon14_admin_portal.txt    ← Carbon14 page-age output
+├── h8mail_results.txt           ← H8Mail breach query output
+├── hash_sample.txt              ← Hash string recovered from breach data
+├── holehe_output.txt            ← Holehe email-to-service mapping
+└── ddgs_results.csv             ← DDGS automated search results
+```
 
 ---
 
-## 7. Critical Assumption
+### Deliverable
 
-> One assumption that, if wrong, would change my conclusion entirely:
+Submit a **1–2 page investigation report** containing:
+1. Timeline of findings (source + timestamp for each)
+2. Completed ACH matrix (template in `/templates/ach_matrix_template.md`)
+3. Your confidence level on the conclusion (0–100%)
+4. One assumption that, if wrong, would invalidate your conclusion
 
-**Assumption:**
-
-**What would change:**
-
----
-
-## 8. Reflection — Bias Check
-
-> What bias were you most tempted by during this investigation?
-> (Reference the Critical Thinking notes Section 2)
-
-Bias identified: _______________________________________________
-
-How I caught it: _______________________________________________
+### Rules
+- Passive only — no active scanning, no login attempts
+- Every flag must cite its source file
+- Complete the ACH matrix **before** writing FLAG-5
