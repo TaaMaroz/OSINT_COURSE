@@ -21,16 +21,16 @@
 
 | # | Evidence Item | Source File |
 |---|--------------|-------------|
-| E1 | Admin portal publicly reachable (HTTP 200) | sublist3r_clearpath.txt |
-| E2 | Admin subdomain has a separate TLS certificate issued 2026-06-01 | theharvester_clearpath.txt |
-| E3 | Target email found in 3 breach databases | h8mail_results.txt |
-| E4 | Password stored as MD5 (weak hashing) | hash_sample.txt |
-| E5 | Reddit post about "weird auth logs" deleted 3 days after posting | blackbird_devk0re.txt |
-| E6 | Commit pushed with work email "DO NOT PUSH TO PUBLIC" message | maigret_devk0re_report.txt |
-| E7 | 14-month gap in Web Archive snapshots of admin portal | carbon14_admin_portal.txt |
-| E8 | Target accounts went silent simultaneously ~2026-08-18 | blackbird_devk0re.txt |
-| E9 | Target has no personal social media (no Facebook/Instagram/Twitter) | holehe_output.txt |
-| E10 | Full name, employer, location confirmed via conference breach + LinkedIn scrape | h8mail_results.txt |
+| E1 | Admin portal publicly reachable (HTTP 200) |  |
+| E2 | Admin subdomain has a separate TLS certificate issued 2026-06-01 | |
+| E3 | Target email found in 3 breach databases |  |
+| E4 | Password stored as MD5 (weak hashing) |  |
+| E5 | Reddit post about "weird auth logs" deleted 3 days after posting |  |
+| E6 | Commit pushed with work email "DO NOT PUSH TO PUBLIC" message |  |
+| E7 | 14-month gap in Web Archive snapshots of admin portal |  |
+| E8 | Target accounts went silent simultaneously ~2026-08-18 |  |
+| E9 | Target has no personal social media (no Facebook/Instagram/Twitter) |  |
+| E10 | Full name, employer, location confirmed via conference breach + LinkedIn scrape |  |
 
 ---
 
